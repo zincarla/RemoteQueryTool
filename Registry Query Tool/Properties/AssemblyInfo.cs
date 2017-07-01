@@ -10,7 +10,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
 [assembly: AssemblyProduct("Remote Query Tool")]
-[assembly: AssemblyCopyright("Copyright © Matthew Thompson 2008~2017")]
+[assembly: AssemblyCopyright("Copyright © Matthew Thompson")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

@@ -61,11 +61,11 @@ namespace Remote_Query_Tool.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copyright Matthew Thompson 2008-2017
+        ///   Looks up a localized string similar to Copyright Matthew Thompson
         ///
-        ///Permission is hereby granted, free of charge, to any person or organization obtaining a copy of the software and accompanying documentation covered by this license (the &quot;Software&quot;) to use, display, execute, tansmit, and distribute the Software to third-parties free of charge.
+        ///Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the &quot;Software&quot;), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
         ///
-        ///THE SOFTWARE IS PROVIDED &quot;AS IS&quot;, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, TITLE AND  [rest of string was truncated]&quot;;.
+        ///The above copyright notice and this permission [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string COPYING {
             get {

@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Remote_Query_Tool
 {
+    /// <summary>
+    /// Contains options to be saved/loaded. This struct is simple and public to allow for easy XMLSerialization based save/load
+    /// </summary>
     public struct Options
     {
         public string pcNameText;

@@ -12,6 +12,9 @@ using System.Threading;
 
 namespace Remote_Query_Tool
 {
+    /// <summary>
+    /// This form provides a GUI for a user to select a registry key path/value
+    /// </summary>
     public partial class PathConstructor : Form
     {
         RegistryHive RH;
@@ -362,7 +365,7 @@ namespace Remote_Query_Tool
             TN = tn;
             isP = isp;
         }
-    }   
+    }
     public struct NodeInfo
     {
         public string Path;

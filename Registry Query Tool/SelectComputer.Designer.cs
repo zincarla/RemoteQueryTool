@@ -52,8 +52,8 @@
             this.ComputerName.Size = new System.Drawing.Size(284, 20);
             this.ComputerName.TabIndex = 1;
             this.ComputerName.Text = "<Insert Computer Name or IP>";
-            this.ComputerName.Leave += new System.EventHandler(this.textBox1_Leave);
-            this.ComputerName.Enter += new System.EventHandler(this.textBox1_Enter);
+            this.ComputerName.Leave += new System.EventHandler(this.ComputerName_Leave);
+            this.ComputerName.Enter += new System.EventHandler(this.ComputerName_Enter);
             // 
             // CancelButton
             // 

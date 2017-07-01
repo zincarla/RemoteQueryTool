@@ -9,6 +9,9 @@ using System.Windows.Forms;
 
 namespace Remote_Query_Tool
 {
+    /// <summary>
+    /// Simple pop-up form to request a machine name
+    /// </summary>
     public partial class SelectComputer : Form
     {
 
@@ -21,14 +24,16 @@ namespace Remote_Query_Tool
             }
         }
 
-        private void textBox1_Enter(object sender, EventArgs e)
+        //If the hint is in the box, clears it
+        private void ComputerName_Enter(object sender, EventArgs e)
         {
             if (ComputerName.Text == "<Insert Computer Name or IP>"){
                 ComputerName.Text = "";
             }
         }
 
-        private void textBox1_Leave(object sender, EventArgs e)
+        //If blank, sets text to a hint
+        private void ComputerName_Leave(object sender, EventArgs e)
         {
             if (ComputerName.Text == "")
             {
@@ -36,12 +41,14 @@ namespace Remote_Query_Tool
             }
         }
 
+        //Close form if click with ok result
         private void OKButton_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
 
+        //Close form if clicked with cancel result
         private void CancelButton_Click(object sender, EventArgs e)
         {
             this.DialogResult = DialogResult.Cancel;

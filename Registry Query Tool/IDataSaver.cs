@@ -8,13 +8,18 @@ using System.Reflection;
 
 namespace Remote_Query_Tool
 {
+    /// <summary>
+    /// Provides a generic interface to save outputted data in different formats
+    /// </summary>
     public interface IDataSaver
     {
         bool Init(string path, string[] columnnames);
         bool Write(string[] data);
         bool Finish();
     }
-
+    /// <summary>
+    /// Saves data in a tab delimited format
+    /// </summary>
     public class TabDelimitedSaver : IDataSaver
     {
         #region IDataSaver Members
@@ -73,6 +78,9 @@ namespace Remote_Query_Tool
         #endregion
     }
 
+    /// <summary>
+    /// Saves data in a XML delimited format
+    /// </summary>
     public class XMLSaver : IDataSaver
     {
         #region IDataSaver Members
@@ -127,6 +135,9 @@ namespace Remote_Query_Tool
         #endregion
     }
 
+    /// <summary>
+    /// Saves data in a CSV delimited format
+    /// </summary>
     public class CSVSaver : IDataSaver
     {
         #region IDataSaver Members

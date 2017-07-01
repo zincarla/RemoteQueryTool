@@ -24,23 +24,18 @@ namespace Remote_Query_Tool
         {
             InitializeComponent();
             string vers = Assembly.GetExecutingAssembly().GetName().Version.ToString();
-            label1.Text = label1.Text.Replace("VERSION", vers); //"Remote Query Tool ("+vers+")\r\n\r\nMade by: Matthew Thompson\r\nMade for: Marine Corps Recruiting Command\r\n\r\nDescription:\r\n       This program was designed to do varied tasks for the MCRC.";
+            CopyInfoLabel.Text = CopyInfoLabel.Text.Replace("VERSION", vers);
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void OKButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void CopyButton_Click(object sender, EventArgs e)
         {
             CopyingForm CF = new CopyingForm();
             CF.ShowDialog();
-        }
-
-        private void About_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

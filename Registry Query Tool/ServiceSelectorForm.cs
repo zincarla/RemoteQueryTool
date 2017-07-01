@@ -10,6 +10,9 @@ using System.Windows.Forms;
 
 namespace Remote_Query_Tool
 {
+    /// <summary>
+    /// Remotely connects to a computer to pull available services to query
+    /// </summary>
     public partial class ServiceSelectorForm : Form
     {
         public string SelectedDisplayName = "";
